@@ -1,100 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gayathri Ramakrishna – Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gayathri Ramakrishna | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+      font-family: 'Open Sans', sans-serif;
       margin: 0;
       padding: 0;
-      color: #fff;
+      background: linear-gradient(to right, #e0f7fa, #fce4ec);
+      color: #333;
     }
     header {
+      background-color: #ab47bc;
+      color: white;
+      padding: 2rem;
       text-align: center;
-      padding: 2em;
-      background-color: rgba(0,0,0,0.2);
     }
-    header img {
-      border-radius: 50%;
+    .profile-pic {
       width: 150px;
       height: 150px;
+      border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 1em;
+      border: 4px solid white;
+      margin-top: 1rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #f8bbd0;
+      padding: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #6a1b9a;
+      font-weight: bold;
     }
     section {
-      max-width: 900px;
+      padding: 2rem;
+      max-width: 1000px;
       margin: auto;
-      padding: 2em;
     }
-    h1, h2 {
+    h2 {
+      color: #6a1b9a;
+    }
+    footer {
       text-align: center;
-    }
-    .card {
-      background-color: rgba(255,255,255,0.1);
-      padding: 1.5em;
-      border-radius: 10px;
-      margin-bottom: 2em;
-    }
-    .contact {
-      text-align: center;
-      font-size: 1.1em;
-    }
-    a {
-      color: #fff;
-      text-decoration: underline;
+      padding: 1rem;
+      background-color: #ce93d8;
+      color: white;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="profile.jpg" alt="Gayathri Ramakrishna">
+    <img src="profile-placeholder.jpg" alt="Profile Photo" class="profile-pic">
     <h1>Gayathri Ramakrishna</h1>
-    <p>Digital Transformation | Data Analytics | Financial Services</p>
+    <p>Strategic IT Leader | Banking Transformation Advisor | AI & Analytics Evangelist</p>
   </header>
 
-  <section>
-    <div class="card">
-      <h2>About Me</h2>
-      <p>I am a banking and analytics professional with leadership experience in institutions like Standard Chartered, DBS, Shinsei Bank (Tokyo), and Citibank (India). Passionate about strategic transformation, data storytelling, and enabling impact-driven digital solutions.</p>
-    </div>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#capstone">Capstone</a>
+    <a href="#goals">Goals</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <div class="card">
-      <h2>CV Highlights</h2>
-      <ul>
-        <li><strong>Current Role:</strong> Transformation Lead (Banking & Analytics)</li>
-        <li><strong>Education:</strong> NUS – Graduate Certificate in Analytics</li>
-        <li><strong>Certifications:</strong> Agile, Data Analytics, Digital Transformation</li>
-        <li><strong>Experience:</strong> Over 15 years in banking across Asia</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Projects – NUS</h2>
-      <p><strong>Capstone Project:</strong> Data Analytics Transformation Strategy</p>
-      <p>Delivered a roadmap for embedding data analytics into traditional banking functions using tools like TOWS Matrix, Business Model Canvas, and competitive benchmarking. Focused on balancing digital capability uplift with customer-centric design.</p>
-    </div>
-
-    <div class="card">
-      <h2>Projects – Arden</h2>
-      <p><strong>Project 1:</strong> Credit Risk Model Optimization</p>
-      <p>Enhanced credit decisioning model through logistic regression and ML techniques, leading to improved approval speed and risk differentiation.</p>
-
-      <p><strong>Project 2:</strong> Reporting Automation Initiative</p>
-      <p>Automated manual MIS reports using Power BI and SQL pipelines, cutting reporting time by 80% and increasing insight delivery to business users.</p>
-    </div>
-
-    <div class="card">
-      <h2>Personal Goals & Community Contribution</h2>
-      <p>I aim to mentor young professionals, review analytics assignments, and offer guest lectures in analytics and transformation topics. I believe in democratizing knowledge and supporting future talent through structured engagement and practical learning.</p>
-    </div>
-
-    <div class="contact">
-      📞 Contact: +65 9625 4026<br>
-      📧 Email: <a href="mailto:gayathrikhanna@gmail.com">gayathrikhanna@gmail.com</a>
-    </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>With over 28 years in BFSI technology, I specialize in driving large-scale data and analytics transformations, regulatory compliance, and AI-enabled governance. I have served as a strategic advisor, transformation lead, and mentor across global banks and fintech firms. I'm currently pursuing an E-MBA in Data & Analytics from Arden University and the CDAO program from NUS Singapore.</p>
   </section>
-</body>
-</html>
+
+  <section id="projects">
+    <h2>Project Portfolio</h2>
+    <ul>
+      <li><strong>Centralized Financial Crime Analytics Store:</strong> Streamlined risk reporting across multiple domains using AI/ML tools.</li>
+      <li><strong>ESG Sustainability Reporting:</strong> Enabled AI-led reporting aligned with GRI, SASB, and TCFD frameworks.</li>
+      <li><strong>Finance Transformation (GLEL):</strong> Enhanced ledger adjustments tracking, winning the Best Finance Transformation Project Award.</li>
+      <li><strong>AML Country Integration:</strong> Rolled out AML monitoring across countries using Norkom and local compliance systems.</li>
+      <li><strong>Core Banking Modernization:</strong> Delivered enterprise-level core systems for Shinsei Bank and Citibank.</li>
+    </ul>
+  </section>
+
+  <section id="capstone">
+    <h2>Capstone Project – NUS CDAO Program</h2>
+    <p><strong>Title:</strong> Data, Analytics Transformation & Monetization Strategy</p>
+    <p><strong>Overview:</strong> A strategic playbook designed for a global bank focusing on digital-first, data-driven transformation. It includes a comprehensive TOWS matrix grounded in PESTEL, Porter’s 5 Forces, VRIO, and McKinsey 7S to map strengths, weaknesses, opportunities, and threats across regions including Asia, Africa, and the Middle East.</p>
+    <p><strong>Key Highlights:</strong></p>
+    <ul>
+      <li>AI-driven personalization and ESG-linked financial products</li>
+      <li>Data Mesh, Data Marketplace, and GenAI initiatives</li>
+      <li>Hyper-automation and LLM-based customer insights</li>
+      <li>Cloud-first, scalable infrastructure and real-time analytics</li>
+      <li>Comprehensive data governance, risk management, and change frameworks</li>
+    </ul>
+  </section>
+
+  <section id="goals">
+    <h2>Goals & Ambitions</h2>
+    <p>I aim to continue championing innovation in digital banking through responsible AI, ESG alignment, and mentoring the next generation of tech leaders. My ongoing education and passion for ethical data frameworks guide this journey.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Gayathrikhanna73@gmail.com">Gayathrikh
+    <p>Mobile : <a href="(65) 96254026">Gayathrikh1
